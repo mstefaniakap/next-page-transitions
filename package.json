@@ -12,7 +12,8 @@
     "prettier": "prettier --write \"src/**/*.js\" \"examples/**/*.js\"",
     "prettier:diff": "prettier --list-different \"src/**/*.js\" \"examples/**/*.js\"",
     "lint": "eslint --ext js src examples",
-    "lint:fix": "eslint --ext js . --fix"
+    "lint:fix": "eslint --ext js . --fix",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
